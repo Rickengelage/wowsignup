@@ -64,3 +64,10 @@ margin-top: 120px;
     padding: 18px;
     font-size: 18px;
 }
+input:user-valid {
+  border-color: green;
+}
+
+input:user-invalid {
+  border-color: red;
+}
