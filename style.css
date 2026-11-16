@@ -2,10 +2,37 @@
     box-sizing: border-box;
     margin: 0;
 }
+:root {
+    --bodybackgroundcolor: black;
+}
 body{
     display: flex;
-    background-color: black;
+    background-color: var(--bodybackgroundcolor, black)
 }
 img {
     margin: auto;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 1024px;
+    border: red solid 2px;
+    margin: auto;
+    background-image: url(./images/wp14555869-dark-portal-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.signup-container {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    
+}
+.icon-container {
+    display: flex;
+    width: 40%;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 25%;
 }
