@@ -17,15 +17,19 @@
                 <h1>sign up now to our wow private server</h1>
                 <p><em>the real wow mmo expierence</em></p>
             </div>
+         
             <div class="signup-form">
                 <form action="" method="post" class="form">
                 <h1>Sign up:</h1>
-                <label for="username">username:</label>
-                <input type="text" name="username" id="username" placeholder="choose a username..">
-                <label for="password:">password:</label>
-                <input type="text" name="password" id="password" placeholder="at least 8 letters">
-                <label for="confirmpassword">confirm password:</label>
-                <input type="text" name="confirmpassword" id="confirmpassword" placeholder="repeat your password..">
+                <label for="username">*Username:</label>
+                <input type="text" name="username" id="username" placeholder="choose a username.." required>
+                <label for="password:">*Password:</label>
+                <input type="password" name="password" id="password" placeholder="at least 8 letters" minlength="8" required>
+                <label for="confirmpassword">*Confirm password:</label>
+                <input type="password" name="confirmpassword" id="confirmpassword" placeholder="repeat your password.." required>
+                <label for="email">*Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@example.com" required>
+                <button class="submit-btn">Submit</button>
 </form>
             </div>
         </div>
