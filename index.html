@@ -9,31 +9,38 @@
 <body>
 
     <main class="main-content">
+        <!-- background image -->
         <div class="icon-container">
             <img src="./images/signupicon.png" alt="" height="100px">
         </div>
-        <div class="signup-container">
-            <div class="container-text">
+        <!-- sign up section to the right -->
+             <div class="signup-container">
+             <div class="container-text">
                 <h1>sign up now to our wow private server</h1>
                 <p><em>the real wow mmo expierence</em></p>
             </div>
-         
+            <!-- the actual form where people enter their info -->
             <div class="signup-form">
                 <form action="" method="post" class="form">
-                <h1>Sign up:</h1>
-                <label for="username">*Username:</label>
-                <input type="text" name="username" id="username" placeholder="choose a username.." required>
-                <label for="password:">*Password:</label>
-                <input type="password" name="password" id="password" placeholder="at least 8 letters" minlength="8" required>
-                <label for="confirmpassword">*Confirm password:</label>
-                <input type="password" name="confirmpassword" id="confirmpassword" placeholder="repeat your password.." minlength="8" required>
-                <label for="email">*Email:</label>
-                <input type="email" name="email" id="email" placeholder="example@example.com" required>
-                <button class="submit-btn">Submit</button>
-</form>
+                <!-- title of the form -->
+                     <h1>Sign up:</h1>
+                <!-- asking to choose username -->
+                    <label for="username">*Username:</label>
+                    <input type="text" name="username" id="username" placeholder="choose a username.." required>
+                <!-- asking for a password with at least 8 letters -->
+                    <label for="password:">*Password:</label>
+                    <input type="password" name="password" id="password" placeholder="at least 8 letters" minlength="8" required>
+                <!-- asking to confirm the password -->
+                     <label for="confirmpassword">*Confirm password:</label>
+                     <input type="password" name="confirmpassword" id="confirmpassword" placeholder="repeat your password.." minlength="8" required>
+                <!-- asking for an email adress -->
+                     <label for="email">*Email:</label>
+                     <input type="email" name="email" id="email" placeholder="example@example.com" required>
+               <!-- the submit button -->
+                     <button class="submit-btn">Submit</button>
+                </form>
             </div>
         </div>
-
     </main>
 </body>
 </html>
