@@ -60,6 +60,9 @@ img {
     padding: 18px;
     font-size: 18px;
 }
+.submit-btn:hover {
+    cursor: pointer;
+}
 input:user-valid {
   border-color: green;
 }
