@@ -29,35 +29,41 @@ img {
     background-color: var(--main-color) ;
     height: 25%;
     box-shadow: 3px 10px 8px -1px rgba(0, 0, 0, 0.34);
--webkit-box-shadow: 3px 10px 8px -1px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 3px 10px 8px -1px rgba(0, 0, 0, 0.34);
 }
 .signup-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: white;
     width: 60%;
     gap: 100px;
+}
+.container-text {
+    margin-top: 200px;
+
 }
 .signup-form {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 12px;
+    padding: 12px; 
 }
-.form  {
+
+.form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    width: 50%;
+    align-items: center;
+    gap: 12px;
 }
+label, input {
+    display: block;
+}
+
 .submit-btn {
-    width: 25%;
-    align-self: center;
     border-radius: 25px;
     background-color: var(--main-color);
-    padding: 18px;
+    padding: 10px 50px;
     font-size: 18px;
 }
 .submit-btn:hover {
@@ -66,7 +72,6 @@ img {
 input:user-valid {
   border-color: green;
 }
-
 input:user-invalid {
   border-color: red;
 }
