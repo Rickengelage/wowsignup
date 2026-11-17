@@ -5,11 +5,17 @@
 :root {
     --bodybackgroundcolor: black;
     --main-color: rgba(255, 202, 103, 0.6);
+    
 }
 body{
     display: flex;
-    background-color: var(--bodybackgroundcolor, black)
+    background-color: var(--bodybackgroundcolor, black);
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+
 img {
     margin: auto;
 }
